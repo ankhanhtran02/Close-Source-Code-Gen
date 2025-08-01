@@ -7,7 +7,7 @@ This repository provides a script for generating code completions using the Gemi
 ## Instructions
 
 ### 1. Install Dependencies
-Run the following commands in your termina
+Run the following commands in your terminal:
 ```sh
 conda create -n close-source python=3.11
 conda activate close-source
@@ -24,5 +24,5 @@ python3 generate.py \
   --save_path outputs/repoexec_bm25_final_generated.jsonl \
 ```
 
-View `generate.py` module for descriptions of arguments.
+View `generate.py` module for descriptions of arguments. Use `--continue_last_generation` argument to resume the last generation.
 
